@@ -1,0 +1,8 @@
+@font-face {
+    font-family: isns;
+    src: url("fonts/Iranian_Sans.ttf");
+}
+
+body{
+    font-family: isns;
+}

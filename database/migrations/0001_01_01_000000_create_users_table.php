@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('user_name');
             $table->string('password');
+            $table->string('role', 20);  // admin, warehouse, visitor
             $table->rememberToken();
             $table->timestamps();
         });
