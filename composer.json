@@ -15,6 +15,7 @@
         "laravel/framework": "^13.7",
         "laravel/tinker": "^3.0",
         "livewire/flux": "^2.13.1",
+        "livewire/flux-pro": "^2.14",
         "livewire/livewire": "^4.1"
     },
     "require-dev": {
@@ -37,7 +38,11 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
-        }
+        },
+        "files": [
+            "app/Helpers/jdf.php",
+            "app/Helpers/gtj.php"
+        ]
     },
     "scripts": {
         "setup": [
@@ -104,5 +109,10 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [{
+        "name": "flux-pro",
+        "type": "composer",
+        "url": "https://composer.fluxui.dev"
+    }]
 }

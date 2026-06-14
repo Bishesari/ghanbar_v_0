@@ -12,20 +12,20 @@ class ProductSeeder extends Seeder
      */
     public function run(): void
     {
-        Product::craete([
+        Product::create([
             'name' => 'ماست',
             'description' => 'ماست پروبیوتیک 900 گرمی سطلی',
         ]);
-        Product::craete([
+        Product::create([
             'name' => 'ماست',
             'description' => 'ماست پروبیوتیک 500 گرمی',
         ]);
-        Product::craete([
+        Product::create([
             'name' => 'پنیر',
             'description' => 'پنیر سفید ایرانی مخصوص قنبر 200 گرمی',
         ]);
 
-        Product::craete([
+        Product::create([
             'name' => 'پنیر',
             'description' => 'پنیر گردویی 150 گرمی',
         ]);
@@ -34,5 +34,6 @@ class ProductSeeder extends Seeder
             'name' => 'دوغ',
             'description' => 'دوغ گازدار 1 لیتری',
         ]);
+
     }
 }
