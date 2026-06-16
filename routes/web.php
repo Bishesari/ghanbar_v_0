@@ -9,6 +9,3 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 
 require __DIR__.'/settings.php';
-
-
-Route::livewire('/daily-inputs', 'pages::daily-input.index')->name('daily-inputs');
