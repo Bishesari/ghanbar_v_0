@@ -15,6 +15,17 @@
                     <flux:sidebar.item icon="home" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>
                         {{ __('داشبرد') }}
                     </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="radio" :href="route('daily-input')" :current="request()->routeIs('daily-input')" wire:navigate>
+                        {{ __('ورود به انبار') }}
+                    </flux:sidebar.item>
+
+                    <flux:sidebar.item icon="radio" :href="route('customer.index')" :current="request()->routeIs('customer.index')" wire:navigate>
+                        {{ __('مشتریان') }}
+                    </flux:sidebar.item>
+
+
+
                 </flux:sidebar.group>
             </flux:sidebar.nav>
 
