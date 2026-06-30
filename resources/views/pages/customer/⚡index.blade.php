@@ -48,7 +48,7 @@ new class extends Component {
                         class="whitespace-nowrap">{{ $customer->name }}</flux:table.cell>
                     <flux:table.cell class="whitespace-nowrap">{{ $customer->mobile }}</flux:table.cell>
                     <flux:table.cell class="whitespace-nowrap">
-                        <flux:button href="{{route('customer.new_order', ['customer' => $customer])}}" variant="primary" color="sky">سفارش جدید</flux:button>
+                        <flux:button href="{{route('customer.order', ['customer' => $customer])}}" variant="primary" color="sky">سفارشات</flux:button>
                     </flux:table.cell>
 
                 </flux:table.row>

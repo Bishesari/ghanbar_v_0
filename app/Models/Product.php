@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Product extends Model
 {
-    public function daily_inputs(): HasMany
+    public function wares(): HasMany
     {
-        return $this->hasMany(DailyInput::class);
+        return $this->hasMany(Ware::class);
 
     }
 }

@@ -16,7 +16,7 @@
                         {{ __('داشبرد') }}
                     </flux:sidebar.item>
 
-                    <flux:sidebar.item icon="radio" :href="route('daily-input')" :current="request()->routeIs('daily-input')" wire:navigate>
+                    <flux:sidebar.item icon="radio" :href="route('ware')" :current="request()->routeIs('ware')" wire:navigate>
                         {{ __('ورود به انبار') }}
                     </flux:sidebar.item>
 
